@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en-in">
+    <head>
+        <title> Welcome to Prime Video</title>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <link rel="shortcut icon" href="./assets/img/prime.ico" type="image/x-icon">
+        <link rel="stylesheet" href="..//node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="..//node_modules/bootstrap/dist/css/bootstrap.css">
+        <style>
+            nav{
+                display: flex;
+                justify-content: space-between;
+                background-color: rgb(3, 23, 48);
+                margin-top: 2px;
+                padding: 10px;
+                height: 70px;
+            }
+            #cover{
+                background-image: url(./assets/img/primemain.jpg.jpg);
+                background-size: 100%;
+                width: 100%;
+                font-family: Arial;
+                padding-left: 110px;
+                padding-top: 150px; 
+                height: 550px;
+                background-repeat: no-repeat;
+                color: white;
+            }
+            #second{
+                background-image: url(./assets/img/1st\ prime.jpg.jpg);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                width: 100%;
+                height: 550px;
+                color: white;
+                padding-left: 70px;
+                padding-top: 100px;
+                padding-right: 10px;
+            }
+            #third{
+                background-image: url(./assets/img/2nd\ prime.jpg.jpg);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                justify-content: left;
+                justify-items: flex-start;
+                padding-right: 90px;
+                padding-top: 80px;
+                text-align: end;
+                width: 100%;
+                height: 550px;
+                color: white;
+            }
+            #forth{
+                background-image: url(./assets/img/3rd\ prime.jpg.jpg);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                width: 100%;
+                height: 550px;
+                color: white;
+                padding-left: 70px;
+                padding-top: 100px;
+            }
+            #suscription{
+                display: grid;
+                grid-template-columns: 6fr 6fr;
+                justify-content: space-between;
+                background-color: white;
+                height: 500px;
+                width: 100%;
+               
+            }
+            a{
+                text-decoration: none;
+                color: rgb(6, 100, 240);
+            }
+            #tit{
+                font-size: 18px;
+                font-family: Arial;
+            }
+            h1{
+                font-family: Helvetica;
+                font-weight: normal;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <nav class="p-3">
+                <div class=" p-sm-2">
+                    <img src="..//public/assets/img/primefoot.ico.png" width="200px" height="50px">
+                </div>
+                <div class="dropdown">
+                    <button type="button" class="btn btn-secondary bi bi-globe" data-bs-toggle="dropdown">
+                        EN
+                      </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">English</a></li>
+                        <li><a class="dropdown-item" href="#">Hindi</a></li>
+                        <li><a class="dropdown-item" href="#">Marathi</a></li>
+                        <li><a class="dropdown-item" href="#">Telegu</a></li>
+                    </ul>
+                    <span><a href="#" class="text-white ms-3 fa-sign-in-alt me-2">Sing in</a></span>
+                </div>
+            </nav>
+        </div>
+        <div id="cover">
+            <div>
+                <div>
+                    <h1>Welcome to Prime Video</h1>
+                    <h4>Join Prime to watch the latest movies, TV shows and award-<br>winning Amazon Originals</h4>
+                    <div class="mt-3">
+                        <button class="form-slect btn-primary btn-lg mt-3">
+                           Start your 30-day free trial
+                        </button>
+                        <p class="mt-1 p-2 ms-2">With select credit or debit cards</p>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <div id="suscription">
+            <div id="text" class="text-black pt-5 ms-5">
+                <h1>Your favorite channels all in<br>one place</h1>
+                <p id="tit" class="mt-4 text-black-40">With Prime Video Channels, find shows and movies from<br>your favorite channels all in one place. Enjoy with an add-<br>on subscription to Channels of your choice</p>
+            </div>
+            <div id="adds" class="mt-3">
+                <div class="float-end">
+                    <a href="#" class="hover img-hover"><img src="./assets/img/btn1.jpg" width="250px" height="150px"></a>
+                    <a href="#"><img src="./assets/img/2btn.jpg" width="250px" height="150px"></a>
+                    <a href="#"><img src="./assets/img/3btn.jpg" width="250px" height="150px"></a>
+                </div>
+                <div class="mt-1 float-end">
+                    <a href="#"><img src="./assets/img/4btn.jpg" width="250px" height="150px"></a>
+                    <a href="#"><img src="./assets/img/5btn.jpg" width="250px" height="150px"></a>
+                    <a href="#"><img src="./assets/img/6btn.jpg" width="250px" height="150px"></a>
+                </div>
+                <div class="mt-1 float-end">
+                    <a href="#"><img src="./assets/img/7btn.jpg" width="250px" height="150px"></a>
+                    <a href="#"><img src="./assets/img/8btn.jpg" width="250px" height="150px"></a>
+                    <a href="#"><img src="./assets/img/9btn.jpg" width="250px" height="150px"></a>
+                </div>
+            </div>
+        </div>
+        <div id="second">
+            <h1>One membership, many benefits</h1>
+            <p id="tit" class="mt-4">Your Prime membership now also includes ad-free music along<br>with unlimited free, fast delivery on eligible items, exclusive access<br>to deals & more.</p>
+            <button class="form-slect btn-primary btn-lg w-25 mt-3">
+                Get Started
+             </button>
+        </div>
+        <div class="justify-content-start" id="third">
+            <h1>Even better with Fire TV Stick</h1>
+            <p id="tit" class="mt-3">The biggest movies and TV shows are always better on a big<br>screen. Simply plug in your Amazon Fire TV Stick and stream on<br>any HDTV. Press the voice button on the remote and say the name<br>the title you want to watch to find it in seconds.</p>
+            <button class="form-slect btn-primary btn-lg w-25 mt-3">
+                Get Started
+             </button>
+        </div>
+        <div id="forth">
+            <div id="align">
+                <h1>Family Friendly</h1>
+                <p id="tit" class="mt-3">With easy to use Parental Controls and a dedicated kids page,<br>enjoy secure, ad-free kids entertainment. Kids can enjoy popular<br>TV shows like Peppa Pig, Powerpuff Girls, and Chhota Bheem.</p>
+            </div>
+            <button class="form-slect btn-primary btn-lg w-25 mt-3">
+                Get Started
+             </button>
+        </div>
+        <footer>
+            <div class="align-items-center justify-content-center p-4 bg-dark text-white text-center">
+                <img src="./assets/img/primefoot.ico.png" width="120px" height="35px">
+                <div class="mt-2 text-muted">
+                    <p><a href="#">Terms and Privacy Notice</a>&nbsp;&nbsp;<a href="#">Send us feedback</a>&nbsp;&nbsp;<a href="#">Help</a>  © 1996-2022, Amazon.com, Inc. or its affiliates</p>
+                </div>
+            </div>
+        </footer>
+        <script src="..//node_modules/jQuery/src/"></script>
+        <script src="..//node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </body>
+</html>
